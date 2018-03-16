@@ -13,9 +13,8 @@ public class MutationTest {
         assertTrue(sut.isPositive(0));
         assertTrue(sut.isPositive(100));
 
-        assertFalse(sut.isPositive(-1));
-        assertFalse(sut.isPositive(102));
-
-        //assertFalse(sut.isPositive(101));
+//        assertFalse(sut.isPositive(-1));
+//        assertFalse(sut.isPositive(102));
+//        assertFalse(sut.isPositive(101));
     }
 }
